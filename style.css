@@ -11,29 +11,10 @@
     
 }
 
-.card3 {
-    
-    position: relative;
-    top: 10px;
-    margin-left: 15px;  
-    margin-top: 15px;
-    width: 420px; 
-    background-color: #e6e6e6;
-    border-radius: 20px;
-    transition: transform 0.3s ease-in;
-    
-}
-
-.card3:hover{
-    transform: scale(1.10);
-    transition: transform 0.3s ease-in;
-}
-
 .card1:hover{
     transform: scale(1.10);
     transition: transform 0.3s ease-in;
 }
-
 
 .card2{
     position: relative;
@@ -50,6 +31,47 @@
     transform: scale(1.10);
     transition: transform 0.3s ease-in;
 }
+
+.card3 {
+    
+    position: relative;
+    top: 10px;
+    margin-left: 15px;  
+    margin-top: 15px;
+    width: 320px;
+    height: 100px; 
+    background-color: #e6e6e6;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in;
+    
+}
+
+.card3:hover{
+    transform: scale(1.10);
+    transition: transform 0.3s ease-in;
+}
+
+.card4 {
+    
+    position: relative;
+    top: 10px;
+    right: 20px;
+    margin-left: 15px;  
+    margin-top: 15px;
+    width: 1300px; 
+    background-color: #e6e6e6;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in;
+    
+}
+
+.card4:hover{
+    transform: scale(1.10);
+    transition: transform 0.3s ease-in;
+}
+
+
+
 
 .card{
     position: relative;
@@ -103,15 +125,28 @@
 }
 
 /* Apply 'akira' font to all navbar elements */
-.navbar, .navbar-nav, .nav-link, .navbar-brand {
+.navbar{
     font-family: 'akira', sans-serif;
-    color: #e6e6e6;
-    
-    
+    color: #e6e6e6;  
+}
+
+.navbar-nav{
+    font-family: 'akira', sans-serif;
+    color: #e6e6e6;  
+}
+
+.nav-link{
+    font-family: 'tommy-reg', sans-serif;
+    color: #e6e6e6;  
+}
+
+.navbar-brand {
+    font-family: 'tommy-bold', sans-serif;
+    color: #e6e6e6;       
 }
 
 .dropdown-item{
-    font-family: 'akira', sans-serif;
+    font-family: 'tommy-reg', sans-serif;
     color: #191b22;
 }
 
@@ -186,4 +221,17 @@
   .jumbotron {
     background-color: #191b22 !important;
     color: white !important; 
+    
 }
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
